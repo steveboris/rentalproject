@@ -145,9 +145,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `FullName`, `Email`, `Password`, `ContactNo`, `Birthday`, `Address`, `City`, `Country`,
                      `RegDate`, `LastUpdate`)
-VALUES (1, 'Danielle Monthe', 'danielle@local.com', '21232f297a57a5a743894a0e4a801fc3', 015276899452, '15/02/2020',
+VALUES (1, 'Danielle', 'danielle@local.com', '21232f297a57a5a743894a0e4a801fc3', 015276899452, '15/02/2020',
         'Brandenburgerstr. 1', 'Berlin', 'Deutschland', default, default),
-       (2, 'Marie Rose', 'marie@local.com', '21232f297a57a5a743894a0e4a801fc3', 015171895552, '15/02/2020',
+       (2, 'Marie', 'marie@local.com', '21232f297a57a5a743894a0e4a801fc3', 015171895552, '15/02/2020',
         'Bergerstr. 1', 'Brandenburg', 'Deutschland', default, default);
 -- --------------------------------------------------------
 --
